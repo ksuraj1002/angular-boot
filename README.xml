@@ -1,0 +1,30 @@
+<?xml version='1.0' ?><!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+	<title>README</title>
+	<chapter id="my-spring-boot-module">
+		<title>My Spring Boot Module</title>
+		<para>This project handles authentication using OAuth 2.0 and OpenID Connect.</para>
+		<section id="features">
+			<title>Features</title>
+			<itemizedlist>
+				<listitem>
+					<para>🔐 Secure login flow</para>
+				</listitem>
+				<listitem>
+					<para>🛡️ CSRF protection</para>
+				</listitem>
+				<listitem>
+					<para>🚪 Logout functionality</para>
+				</listitem>
+			</itemizedlist>
+		</section>
+		<section id="getting-started">
+			<title>Getting Started</title>
+			<para>To run the project:
+
+				<code>`</code>bash
+				./mvnw spring-boot:run
+			</para>
+		</section>
+	</chapter>
+</book>
